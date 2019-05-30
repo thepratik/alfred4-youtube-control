@@ -39,6 +39,6 @@ on run argv
     end if
 
     tell selector to set_player(get_tab_from_id(tab_id))
-    tell application "Alfred 3" to run trigger "open" in workflow "me.shirohana.alfred-youtube-control"
+    tell application "Alfred 4" to run trigger "open" in workflow "me.shirohana.alfred-youtube-control"
   end if
 end run

@@ -5,7 +5,7 @@ on init(bundleid, filename)
 
     on run {}
       set dbpath to POSIX path of (path to home folder) &¬
-          "Library/Application Support/Alfred 3/Workflow Data/" & bundleid
+          "Library/Application Support/Alfred/Workflow Data/" & bundleid
 
       if not file_exists(dbpath) then¬
           do shell script "mkdir " & (quoted form of dbpath)

@@ -9,7 +9,7 @@ on run {}
 
   # Show player selector when player is not specified
   if player is null then
-    tell application "Alfred 3" to return¬
+    tell application "Alfred 4" to return¬
         run trigger "select-player" in workflow "me.shirohana.alfred-youtube-control"
   end if
 

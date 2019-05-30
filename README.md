@@ -1,3 +1,7 @@
+alfred4-youtube-control
+Few lines changed to make it compatible with Alfred 4.
+
+
 alfred3-youtube-control
 =======================
 

@@ -25,7 +25,7 @@ on run argv
         activate
       end tell
     else
-      tell application "Alfred 3" to run trigger "select-player" in workflow "me.shirohana.alfred-youtube-control"
+      tell application "Alfred 4" to run trigger "select-player" in workflow "me.shirohana.alfred-youtube-control"
     end if
   else
     set youtube to init(player) of load("youtube-controller.scpt") of Loader
@@ -52,7 +52,7 @@ on run argv
       tell youtube to execute from¬
           "window.location.href = " & quoted form of (text 6 thru -1 of action)
     else if action is "select" then
-      tell application "Alfred 3" to run trigger "select-player" in workflow "me.shirohana.alfred-youtube-control"
+      tell application "Alfred 4" to run trigger "select-player" in workflow "me.shirohana.alfred-youtube-control"
     end if
   end if
 
