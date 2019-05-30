@@ -2,8 +2,8 @@
 set -e
 
 BASEDIR=$(dirname "$0")
-WORKFLOW_DIR=$(realpath "$BASEDIR"/workflow)
-DIST_DIR=$(realpath "$BASEDIR"/dist)
+WORKFLOW_DIR=$(grealpath "$BASEDIR"/workflow)
+DIST_DIR=$(grealpath "$BASEDIR"/dist)
 
 rm -rf "$DIST_DIR"; mkdir -p "$DIST_DIR"
 
